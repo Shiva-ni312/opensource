@@ -1,0 +1,8 @@
+x = int(input())
+discount_10_percent = x*0.1
+discount_100 = 100
+if discount_10_percent >= discount_100:
+    final_price = x - discount_10_percent
+else:
+    final_price = x - discount_100
+print(int(final_price))
